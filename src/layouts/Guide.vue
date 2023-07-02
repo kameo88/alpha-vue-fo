@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'GuideMain',
+  name: 'Guide',
   emits: ['changeGuidePage'],
   data(){
     return {

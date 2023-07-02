@@ -155,10 +155,9 @@
 
 <script>
 export default {
-  name: 'compHeader'
+  name: 'MainHeader'
 }
 </script>
 
 <style>
-  @import url(../assets/css/style.css);
 </style>

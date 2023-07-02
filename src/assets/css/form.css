@@ -297,8 +297,6 @@ tr:nth-child(4) .th_ico::before{background-image:url(../images/common/ico_cale.p
 
 
 
-
-
 /* 0621 */
 /* ***** dl dt dd info list ***** */
 .list_info_ty01{font-size:1.3rem; color:#000; text-align:left; line-height:1.9rem; padding:1rem 0; border-top:1px solid #000; border-bottom:1px solid #ddd;}
@@ -329,56 +327,6 @@ tr:nth-child(4) .th_ico::before{background-image:url(../images/common/ico_cale.p
 
 
 
-
-/* ***** button ***** */
-[class^=btn_] {display:inline-block; border:0.1rem solid; border-radius:0.8rem; text-align:center;}
-                
-[class^=btn_][class*=_sXS] {padding:0.17rem 0.5rem; font-size:1.3rem; line-height:1.9rem; border-radius:0.4rem;}
-[class^=btn_][class*=_sS] {padding:0.72rem 1.12rem; font-size:1.4rem; line-height:2rem; border-radius:0.6rem;}
-[class^=btn_][class*=_sM] {padding:1.22rem 1.92rem; font-size:1.5rem; line-height:2.2rem;}
-[class^=btn_][class*=_sL] {padding:1.22rem 1.92rem; font-size:1.6rem; font-weight:700; line-height:2.2rem;}
-[class^=btn_][class*=_sS][class*=w_ty02] {padding:0.72rem 0.7rem;}
-
-[class^=btn_][class*=_c01] {border-color:#fc6969; background-color:#fc6969; color:#fff;}
-[class^=btn_][class*=_c02] {border-color:#fc6969; background-color:#fff; color:#fc6969;}
-[class^=btn_][class*=_c03] {border-color:#73819b; background-color:#73819b; color:#fff;}
-[class^=btn_][class*=_c04] {border-color:#73819b; background-color:#fff; color:#53617c;}
-[class^=btn_][class*=_c05] {border-color:#F8F8F8; background-color:#F8F8F8; color:#717171;}
-[class^=btn_][class*=_c06] {border-color:#bbbfc7; background-color:#bbbfc7; color:#fff;}
-[class^=btn_][class*=_c07] {border-color:#bbb; background-color:#fff; color:#717171;}
-
-[class^=btn_][class*=_kakao] {position:relative; padding-right:5rem; padding-left:5rem; border-color:#fee500; background-color:#fee500; color:#371d1e;}
-[class^=btn_][class*=_kakao]::before {content:''; position:absolute; top:50%; left:2rem; width:2rem; height:2rem; margin-top:-1rem; background:url(../images/common/img_kakao_logo.png) no-repeat center / 100% auto;}
-[class^=btn_][class*=_naver] {position:relative; padding-right:5rem; padding-left:5rem; border-color:#03c75a; background-color:#03c75a; color:#fff;}
-[class^=btn_][class*=_naver]::before {content:''; position:absolute; top:50%; left:2rem; width:2rem; height:2rem; margin-top:-1rem; background:url(../images/common/img_naver_logo.png) no-repeat center / 100% auto;}
-[class^=btn_][class*=_reset] {border-color:#bbb; background-color:#FFF; color:#000;}
-[class^=btn_][class*=_reset]::before {content:'';display: inline-block; width:1.6rem; height:1.6rem; margin-right:0.4rem; margin-bottom:-0.3rem; background:url(../images/common/ico_reset.png) no-repeat center / 100% auto;}
-[class^=btn_][class*=_email] {position:relative; padding-right:5rem; padding-left:5rem; border-color:#000; background-color:#fff; color:#000;}
-[class^=btn_][class*=_email]::before {content:''; position:absolute; top:50%; left:2rem; width:2rem; height:2rem; margin-top:-1rem; background:url(../images/common/img_email_logo.png) no-repeat center / 100% auto;}
-
-
-[class^=btn_].disabled,
-[class^=btn_][disabled],
-[class^=btn_]:disabled {border-color:#eaeaea; background-color:#eaeaea; color:#bbb;}
-
-.group_btn {display:flex;}
-.group_btn + .group_btn {margin-top:0.8rem;}
-.group_btn [class^=btn_] {flex:1; display:block;}
-.group_btn [class^=btn_] ~ [class^=btn_] {margin-left:0.8rem;}
-
-.share_box{display:flex; justify-content:space-between; align-items:center; margin-top:0.6rem;}
-.share_box > span{font-size:1.2rem; line-height:1.5rem; color:#909090;}
-.share_btn {font-size:1.3rem; line-height:1.9rem; color:#717171;}
-.share_btn::before {content:''; display:inline-block; width:1.6rem; height:1.6rem; margin-right:0.2rem; background:url(../images/common/share.png) no-repeat left center / 100% auto; vertical-align:text-bottom;}
-
-.text_btn{position:relative; display:inline-block; padding-right:1.8rem; margin-top:1.2rem; font-size:1.3rem; line-height:1.9rem; color:#717171;}
-.text_btn::after{content:''; position:absolute; top:50%; right:0; width:1.6rem; height:1.6rem; margin-top:-0.8rem; background:url(../images/common/ico_arrowR.png) no-repeat center / 100% auto;}
-
-.text_btn.ty02{color:#909090; text-decoration:underline; display:block; margin-top:0; margin-left:auto; margin-bottom:0.8rem; padding-right:0;}
-.text_btn.ty02::after{content:none;}
-
-.text_btn.ty03{color:#909090; text-decoration:underline; display:block; margin-top:0; padding-right:0;}
-.text_btn.ty03::after{content:none;}
 
 
 

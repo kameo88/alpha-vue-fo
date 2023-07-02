@@ -1,6 +1,6 @@
 <template>
   <div class="wrap">
-    <CompHeader />
+    <MainHeader />
 
     <div class="container">
       <div class="content" id="content">
@@ -290,12 +290,12 @@
 </template>
 
 <script>
-import CompHeader from "@/components/Header.vue";
+import MainHeader from "@/components/MainHeader.vue";
 
 export default {
   name: "GuidePopup",
   components: {
-    CompHeader,
+    MainHeader,
   },
 };
 </script>

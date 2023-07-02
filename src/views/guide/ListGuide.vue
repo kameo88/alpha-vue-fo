@@ -2,7 +2,7 @@
   <div class="wrap">
 
     <GuideHeader :page="page" :pageOn="pageOn" @changeGuidePage="changeGuidePage" />
-    
+        
     <h2>Guide : v0.0</h2>
 
     <div class="cont">

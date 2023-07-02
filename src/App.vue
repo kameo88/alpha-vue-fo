@@ -1,23 +1,12 @@
 <template>
-      <HelloWorld/>
-  <!-- <v-app>
-    <v-main>
-    </v-main>
-  </v-app> -->
+  <router-view />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-
-  components: {
-    HelloWorld,
-  },
-
-  data: () => ({
-    //
-  }),
+  mounted(){
+    this.$front.device();
+  }
 }
 </script>

@@ -2,7 +2,7 @@
 
   <div class="wrap">
 
-    <compHeader />
+    <MainHeader />
     <!-- // gnb -->
 
     <div class="container">
@@ -169,12 +169,12 @@
 </template>
 
 <script>
-import compHeader from '@/components/Header.vue'
+import MainHeader from '@/components/MainHeader.vue'
 
 export default {
   name: 'ButtonGuide',
   components:{
-    compHeader,
+    MainHeader,
   },
 }
 </script>

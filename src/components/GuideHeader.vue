@@ -2,7 +2,9 @@
 
   <header>
     <div class="cont_area">
-      <h1><router-link to="/"><img src="../assets/images/common/logo_plusalpha.png" alt="+알파"></router-link> : {{ page[pageOn].name }}</h1>
+      <h1><router-link to="/"><img src="../assets/images/common/logo_plusalpha.png" alt="+알파"></router-link> : 
+      <!-- {{ page[pageOn].name }} -->
+      </h1>
       <p class="info"><span>2023.05.26</span> Last updata</p>
       <div class="proc_wrap">
         <div class="proc">
